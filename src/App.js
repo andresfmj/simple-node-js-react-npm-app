@@ -13,7 +13,7 @@ class App extends Component {
         <p className="App-intro">
           This is placeholder text just for continous integration purposes.
         </p>
-        <p>Hello</p>
+        <h2>Under construction babe~</h2>
       </div>
     );
   }
