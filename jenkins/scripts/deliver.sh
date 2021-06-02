@@ -9,7 +9,7 @@ set -x
 rm -rf build
 npm run build
 cd build
-aws s3 sync . s3://dentos.xyz
+aws s3 sync . s3://dentos.xyz --delete --acl public-read
 set +x
 
 # echo 'The following "npm" command runs your Node.js/React application in'
